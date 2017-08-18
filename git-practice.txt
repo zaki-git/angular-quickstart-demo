@@ -22,3 +22,9 @@ changes dfasl
 commit 6
 new commits after resetting some commits and discarding commit 6, 7
 --------------------
+
+commit 7
+new commit after hard reset. old commit 7 is still in the repo history
+----------------------
+
+

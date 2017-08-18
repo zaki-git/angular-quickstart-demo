@@ -11,3 +11,7 @@ commit 4
 new commits after resetting some commits and discarding commit 4, 5
 -----------------------
 
+commit 5
+new commit after hard reset. old commit 5 is still in the repo history
+----------------------
+
