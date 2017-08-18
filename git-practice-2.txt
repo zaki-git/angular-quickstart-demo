@@ -6,3 +6,8 @@ changes khkkkkkh jbj
 
 commit 3
 some changes again
+
+commit 4
+new commits after resetting some commits and discarding commit 4, 5
+-----------------------
+

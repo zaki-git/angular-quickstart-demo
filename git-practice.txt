@@ -18,3 +18,7 @@ changes kkjjk
 commit 5
 changes dfasl
 --------------------
+
+commit 6
+new commits after resetting some commits and discarding commit 6, 7
+--------------------
