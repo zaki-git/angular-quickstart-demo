@@ -1,6 +1,7 @@
 commit one
 
 changes made
+<<<<<<< HEAD
 --------------------
 
 commit 2
@@ -14,3 +15,6 @@ changes aslfj asdf ljldfgd
 commit 4
 changes kkjjk
 ----------------------
+=======
+--------------------
+>>>>>>> parent of 8f1cf59... some changes to file 1
