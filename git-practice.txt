@@ -18,3 +18,11 @@ changes kkjjk
 commit 5
 changes dfasl
 --------------------
+
+commit 6
+changes after reverting commit
+--------------------------
+
+commit 7
+changes in both files
+-------------------
