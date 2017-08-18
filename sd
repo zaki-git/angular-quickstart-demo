@@ -1,0 +1,248 @@
+[33mcommit a35d91d7e3e125015049018cc7a3871035591491[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mzaki-github/master[m[33m)[m
+Author: zaki <zaki.cse.10@gmail.com>
+Date:   Mon Aug 14 22:30:40 2017 +0600
+
+    added gitignore again
+
+[33mcommit 4f24f8d35b63fe8ff93992daf0e5588a030daa3f[m
+Author: zaki <zaki.cse.10@gmail.com>
+Date:   Sun Aug 13 08:17:26 2017 +0600
+
+    first commit. the project is done without the HTTP part
+
+[33mcommit 87ad8f5769c52a623b8e7df679b3960f2aa50e63[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: feelingsofwhite <james@feelingsofwhite.com>
+Date:   Thu Apr 27 04:16:14 2017 -0600
+
+    chore: fix systemjs-angular-loader.js for external templates (#444) (#445)
+
+[33mcommit 418dc2e1d00bf8a5148e761b7c92d8bb4449046c[m
+Author: Niels Heeren <nielsheeren@gmail.com>
+Date:   Wed Apr 26 17:49:53 2017 +0200
+
+    Fix systemjs-angular-loader.js for <=IE10 (#443)
+    
+    "let" is ES2015 and therefore not supported by<=IE10
+
+[33mcommit 16232d7d513e1796654e95a61147ac5a30085a0e[m
+Author: Mike Reid <mike@pixelchutes.com>
+Date:   Sun Apr 23 14:48:06 2017 -0600
+
+    docs(readme): fix small typo in README.md (#441)
+    
+    Remove word 'add' from "Updating to a newer version of the Quickstart Repo"
+    section of GitHub README.
+
+[33mcommit 456b849692ade45c4f58fc80c65ee23c99dc9190[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Fri Mar 24 12:31:10 2017 -0700
+
+    fix(systemjs-angular-loader): replace w/ version that works in IE
+
+[33mcommit e7fd753263b92c5a9948bdc336c99cb0ebe8b8a8[m[33m ([m[1;33mtag: latest[m[33m, [m[1;33mtag: 4.0.0[m[33m)[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Fri Mar 24 01:04:11 2017 +0000
+
+    build: update to Angular 4 (#413)
+
+[33mcommit eaf53869d0c2f4011138fc4f311abe913006a99f[m[33m ([m[1;31morigin/v2[m[33m)[m
+Author: Jesús Rodríguez <Foxandxss@gmail.com>
+Date:   Wed Mar 22 18:01:22 2017 +0100
+
+    chore: add moduleId removal loader (#410)
+
+[33mcommit 6e39693658897baa56699314de6a15d4783f8e41[m
+Author: Jozef Pažin <atiris@gmail.com>
+Date:   Tue Feb 28 13:51:24 2017 +0100
+
+    Removed secondary base href=/ element (#395)
+
+[33mcommit 90d242f97f9df2bf195a8413f4a7f8458f8af254[m
+Author: Jesús Rodríguez <Foxandxss@gmail.com>
+Date:   Mon Feb 27 10:53:59 2017 +0100
+
+    chore: add base href (#368)
+
+[33mcommit 36de7ef7585d9186ffa82a886fbccbfef9125cba[m
+Author: Jesús Rodríguez <Foxandxss@gmail.com>
+Date:   Sat Feb 11 02:18:22 2017 +0100
+
+    chore: lock @types jasmine (#381)
+
+[33mcommit 5dda80101a079035fabde2dde432146707c31806[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Thu Feb 9 11:32:33 2017 +0000
+
+    build(deps): update concurrently (#379)
+    
+    This fixes processes being left alive in gitbash.
+    
+    /cc @foxandxss
+
+[33mcommit df33a5b061df4c29ff5a4391bf7a3a80315c66eb[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Mon Feb 6 13:46:22 2017 -0800
+
+    chore: add bs-config.e2e.json to non-essential files
+
+[33mcommit 816b8bd87736de0b2874502dbd38f531a281d472[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Tue Jan 10 23:39:26 2017 -0800
+
+    chore: fix OSX instructions to remove non-essential files
+
+[33mcommit d0e75940f0f4a7a621a4f2da9361fdf4cebac97a[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Thu Feb 2 18:38:49 2017 +0000
+
+    chore: add src folder (#362)
+    
+    * chore: add src folder
+    
+    * incorporate Jesus's feedback
+    
+    * move tsconfig.json into src/e2e
+    
+    * add base href
+    
+    * ignore debug.log
+    
+    * remove unused npm script
+    
+    * some protractor changes
+    
+    * remove appSrcBase
+    
+    * explicitely list config for npm run serve
+    
+    * add update instructions
+    
+    * Add third party deps note to update section
+
+[33mcommit 182d81a34b228cbdfd70c8c823ac045e7efd193f[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Tue Jan 10 23:47:40 2017 -0800
+
+    chore: add slash to appAssets in karma.conf (#329) (#351)
+    
+    Add leading slash to appAssets variable
+    closes #329
+
+[33mcommit eda3873cce79646296170ffa66c1fbb4e97023d3[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Thu Jan 5 18:36:36 2017 -0800
+
+    chore: add non-essential-files.txt and instrucs
+
+[33mcommit 588fd3c2a0ce8f8412d7ee6f0af5801b0eeda463[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Mon Jan 2 14:43:46 2017 -0800
+
+    chore(readme): npm start doesn't work in Bash for Windows
+
+[33mcommit b98f50fd88a5b177b93e81458cd1beebedcedfb2[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Mon Jan 2 21:15:36 2017 +0000
+
+    chore(deps): remove reflect-metadata (#343)
+    
+    Blocked on https://github.com/angular/in-memory-web-api/pull/86
+    
+    As per https://github.com/zloirock/core-js/issues/152, `core-js` already includes `reflect-metadata`.
+
+[33mcommit 3150b604822768c463b4e304f840a75c1237859d[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 21 17:41:31 2016 -0800
+
+    chore: bump to latest in-memory-web-api version
+
+[33mcommit bb064832aaa14063d84aca4e2e98711dcccdb42e[m
+Author: Craig <cnishina@users.noreply.github.com>
+Date:   Wed Dec 21 01:53:40 2016 -0800
+
+    fix(deps): remove selenium-webdriver typings and update protractor version (#332)
+
+[33mcommit b55d76119253df57e9dcf3557f494588f4a6dd4a[m[33m ([m[1;33mtag: 2.4.0[m[33m)[m
+Author: Jesús Rodríguez <Foxandxss@gmail.com>
+Date:   Wed Dec 21 01:51:04 2016 +0100
+
+    chore: bump to 2.4.0 (#331)
+
+[33mcommit d8c3cba7baa9fa2eaf3cc3f60332abfb2fbfb7f0[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Tue Dec 20 17:56:13 2016 +0000
+
+    fix(deps): pin webdriver and zone.js (#330)
+    
+    When https://github.com/angular/protractor/pull/3848 is ready it should fix the webdriver types issues, and the pinning can be reverted.
+    
+    The zone.js problem is being tracked on https://github.com/angular/zone.js/issues/554.
+    
+    Fix https://github.com/angular/quickstart/issues/325
+
+[33mcommit d765934b532e84c0f06ea34282f1eea58c538371[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 14 19:08:23 2016 -0800
+
+    chore: update changelog
+
+[33mcommit ad20b8d7b39d82f8695df54fe36d3fe65423db0f[m
+Merge: e87fbef e2dc603
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 14 19:03:45 2016 -0800
+
+    Merge branch 'master' of https://github.com/angular/quickstart
+
+[33mcommit e87fbef98e7fcc57a1c17d5c876fa6d7043d7854[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 14 19:03:39 2016 -0800
+
+    chore: update in-mem to v.0.2.1
+
+[33mcommit e2dc603363d588bc529acaeb7769235b12c834c9[m
+Author: Adriano dos Santos Fernandes <asfernandes@users.noreply.github.com>
+Date:   Tue Dec 13 06:08:21 2016 -0200
+
+    Correction for when we change tsconfig.json/outDir and karma.conf/appBase. (#314)
+
+[33mcommit 1249afd56492812f8cb5ef0e054731961f3470f2[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Mon Dec 12 20:43:33 2016 -0800
+
+     chore: update example package.json to use in-mem-web-api 0.2.0
+     This update ensures examples get "cold" observables from `Http` when using in-mem-web-api
+
+[33mcommit 730682fb22f4722515d5c9f1f656525bc87b0d0b[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Mon Dec 12 13:34:55 2016 +0000
+
+    ci: update protractor (#318)
+
+[33mcommit 9acb6303a749ff7ae449b6c0f5364b408dc82e78[m[33m ([m[1;33mtag: 2.3.0[m[33m)[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Wed Dec 7 23:53:45 2016 +0000
+
+    chore: update to 2.3.0 (#308)
+    
+    chore: update to 2.3.0
+
+[33mcommit 2867bc166145459a7ea7e25345a19311595fc93e[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Nov 30 15:33:48 2016 -0800
+
+    chore: karma.conf cosmetic changes
+
+[33mcommit 867d54c22d2b07e51070a5319022dc257a442c11[m
+Merge: d68eb81 3adfdf7
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Nov 30 14:31:05 2016 -0800
+
+    chore(config): remove upgrade package mappings
+    closes #301
+
+[33mcommit 3adfdf768d94355540ee78f589d9e53bcf40a368[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Nov 30 12:33:46 2016 -0800
+
+    chore: test framework improvements, remove tsconfig `exclude` clause
+    * remove `exclude` clause from `tsconfig
