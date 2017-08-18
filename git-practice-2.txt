@@ -6,11 +6,3 @@ changes khkkkkkh jbj
 
 commit 3
 some changes again
-
-commit 4 
-some more changes
-
-commit 5
-changes in both files
------------------------
-
