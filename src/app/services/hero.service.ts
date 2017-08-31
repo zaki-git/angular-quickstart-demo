@@ -5,8 +5,14 @@ import { HEROS } from '../mock-heros';
 @Injectable()
 export class HeroService
 {
+    heros: Hero[];
+
+    constructor() {
+        this.heros = HEROS;
+    }
+
     getHeros(): Promise<Hero[]> {
-        return Promise.resolve(HEROS);
+        return Promise.resolve(this.heros);
     }
 
     getHeroesSlowly(): Promise<Hero[]> {
@@ -20,5 +26,13 @@ export class HeroService
     getHero(id: number): Promise<Hero> {
     return this.getHeros()
                 .then(heroes => heroes.find(hero => hero.id === id));
+    }
+
+    addHero(hero: Hero): void {
+        //var hero = new Hero();
+        //hero.id = new Date().getSeconds();
+        //hero.name = 'some random hero' + hero.id;
+
+        this.heros.push(hero);
     }
 }
