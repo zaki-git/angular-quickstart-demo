@@ -10,6 +10,7 @@ var router_1 = require("@angular/router");
 var hero_detail_component_1 = require("./components/hero-detail.component");
 var heros_component_1 = require("./components/heros.component");
 var dashboard_component_1 = require("./components/dashboard.component");
+var add_heros_component_1 = require("./components/add-heros.component");
 var routes = [
     {
         path: '',
@@ -27,6 +28,10 @@ var routes = [
     {
         path: 'detail/:id',
         component: hero_detail_component_1.HeroDetailComponent
+    },
+    {
+        path: 'add',
+        component: add_heros_component_1.AddHerosComponent
     }
 ];
 var AppRoutingModule = (function () {

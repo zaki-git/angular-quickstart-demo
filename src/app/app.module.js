@@ -10,6 +10,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var app_routing_module_1 = require("./app-routing.module");
+var add_heros_component_1 = require("./components/add-heros.component");
 var hero_detail_component_1 = require("./components/hero-detail.component");
 var heros_component_1 = require("./components/heros.component");
 var dashboard_component_1 = require("./components/dashboard.component");
@@ -28,7 +29,7 @@ AppModule = __decorate([
             forms_1.FormsModule,
             app_routing_module_1.AppRoutingModule
         ],
-        declarations: [app_component_1.AppComponent, dashboard_component_1.DashboardComponent, heros_component_1.HerosComponent, hero_detail_component_1.HeroDetailComponent],
+        declarations: [app_component_1.AppComponent, dashboard_component_1.DashboardComponent, heros_component_1.HerosComponent, hero_detail_component_1.HeroDetailComponent, add_heros_component_1.AddHerosComponent],
         bootstrap: [app_component_1.AppComponent],
         providers: [hero_service_1.HeroService]
     })
