@@ -5,15 +5,9 @@ import { HeroService } from '../services/hero.service';
 
 @Component({
     selector: 'add-hero',
-    template: `
-        <h2>Add a new hero here!</h2>
-        <div>
-            <label>name: </label>
-            <input [(ngModel)]="hero.name" placeholder="name" />
-        </div>
-        <button (click)="addHero()">Add a hero</button>
-    `,
-    styleUrls: ['']
+    moduleId: module.id,
+    templateUrl: '../templates/add-heros.component.html',
+    styleUrls: ['../styles/hero-detail.component.style.css']
 })
 export class AddHerosComponent {
 

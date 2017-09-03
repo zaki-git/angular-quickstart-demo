@@ -26,8 +26,9 @@ var AddHerosComponent = (function () {
 AddHerosComponent = __decorate([
     core_1.Component({
         selector: 'add-hero',
-        template: "\n        <h2>Add a new hero here!</h2>\n        <div>\n            <label>name: </label>\n            <input [(ngModel)]=\"hero.name\" placeholder=\"name\" />\n        </div>\n        <button (click)=\"addHero()\">Add a hero</button>\n    ",
-        styleUrls: ['']
+        moduleId: module.id,
+        templateUrl: '../templates/add-heros.component.html',
+        styleUrls: ['../styles/hero-detail.component.style.css']
     }),
     __metadata("design:paramtypes", [hero_service_1.HeroService])
 ], AddHerosComponent);
