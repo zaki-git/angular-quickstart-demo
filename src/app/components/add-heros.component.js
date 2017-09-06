@@ -14,12 +14,16 @@ var hero_service_1 = require("../services/hero.service");
 var AddHerosComponent = (function () {
     function AddHerosComponent(heroService) {
         this.heroService = heroService;
-        this.hero = new hero_1.Hero();
-        this.hero.id = new Date().getSeconds();
-        this.hero.name = '';
     }
+    AddHerosComponent.prototype.ngOnInit = function () {
+        this.hero = new hero_1.Hero();
+    };
     AddHerosComponent.prototype.addHero = function () {
-        this.heroService.addHero(this.hero);
+        var _this = this;
+        if (!this.hero.name)
+            return;
+        this.heroService.create(this.hero)
+            .then(function () { return _this.hero = new hero_1.Hero(); });
     };
     return AddHerosComponent;
 }());

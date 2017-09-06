@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component, OnInit } from '@angular/core'
 
 import { Hero } from '../hero';
 import { HeroService } from '../services/hero.service';
@@ -9,17 +9,19 @@ import { HeroService } from '../services/hero.service';
     templateUrl: '../templates/add-heros.component.html',
     styleUrls: ['../styles/hero-detail.component.style.css']
 })
-export class AddHerosComponent {
+export class AddHerosComponent implements OnInit {
 
     hero: Hero;
 
-    constructor(private heroService: HeroService) {
+    constructor(private heroService: HeroService) { }
+
+    ngOnInit(): void {
         this.hero = new Hero();
-        this.hero.id = new Date().getSeconds();
-        this.hero.name = '';
     }
 
     addHero(): void {
-        this.heroService.addHero(this.hero);
+        if(!this.hero.name) return;
+        this.heroService.create(this.hero)
+        .then(() => this.hero = new Hero());
     }
 }
