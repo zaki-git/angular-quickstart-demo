@@ -60,6 +60,13 @@ var HeroService = (function () {
             .then(function (response) { return response.json().data; })
             .catch(this.handleError);
     };
+    HeroService.prototype.delete = function (hero) {
+        var url = this.heroesUrl + '/' + hero.id;
+        return this.http.delete(url, { headers: this.headers }).
+            toPromise()
+            .then(function () { return null; })
+            .catch(this.handleError);
+    };
     HeroService.prototype.handleError = function (err) {
         console.error('An error occurred: ' + err);
         return Promise.reject((err));

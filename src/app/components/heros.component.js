@@ -23,6 +23,15 @@ var HerosComponent = (function () {
     HerosComponent.prototype.onSelect = function (hero) {
         this.selectedHero = hero;
     };
+    HerosComponent.prototype.delete = function (hero) {
+        var _this = this;
+        this.heroService.delete(hero)
+            .then(function () {
+            _this.heros = _this.heros.filter(function (h) { return h !== hero; });
+            if (_this.selectedHero === hero)
+                _this.selectedHero = null;
+        });
+    };
     HerosComponent.prototype.getHerosFromService = function () {
         var _this = this;
         this.heroService.getHeros().then(function (result) { return _this.heros = result; });
